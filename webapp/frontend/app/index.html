@@ -10,6 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}styles/bootstrap.united.orka.css"/>
 		<link rel="stylesheet" href="{{ STATIC_URL }}styles/style.css">
 		<link rel="stylesheet" href="{{ STATIC_URL }}libs/prettify.css">
+		<link rel="shortcut icon" href="{{ STATIC_URL }}favicon.ico">
+		<link rel="icon" href="{{ STATIC_URL }}favicon.ico" type="image/x-icon">
 	</head>
 	<body class="" style="" onload="set_style_from_cookie()">
 		{% verbatim %}
@@ -71,7 +73,8 @@
 		<!--load templates-->
 		<script>EmberHandlebarsLoader.loadTemplates([
 			'application', 'homepage',
-			'help/images', 'help/vreimages', 'help/experiments','help/personalorka'
+			'help/images', 'help/vreimages', 'help/experiments','help/personalorka',
+                        'about/orka', 'about/faq'
 		]);</script>
 		
 	
